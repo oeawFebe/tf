@@ -19,7 +19,5 @@ model.compile(optimizer='sgd',loss='sparse_categorical_crossentropy',metrics=['a
 model.fit(x_train,y_train,epochs=5,verbose=1,validation_data=(x_test,y_test))
 
 print(model.summary())
-print(model.__dir__())
-print(model.__str__())
 
 
